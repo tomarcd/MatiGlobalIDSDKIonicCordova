@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CB3DA2D277B8C676DAFAA681751A98AD /* Mati-Global-ID-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3F4C8C8BFC974C4C3811623CFDDB4101 /* Build configuration list for PBXAggregateTarget "Mati-Global-ID-SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "Mati-Global-ID-SDK";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0623E4A2E3A25AF72215279094249D0D /* Pods-MyApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA93F8A8E6B9F5FB94D0E196C601194D /* Pods-MyApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E6187C2FD74361EE26E48AC4CD0CB77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3DA2D277B8C676DAFAA681751A98AD;
+			remoteInfo = "Mati-Global-ID-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		021A78F9337EAD5796DA94A5F6A79C49 /* Mati-Global-ID-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mati-Global-ID-SDK.xcconfig"; sourceTree = "<group>"; };
+		1CC18B9BC19B11067ACDF00FB717CA67 /* MatiGlobalIDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MatiGlobalIDSDK.framework; sourceTree = "<group>"; };
+		288D214476F7A4C955F399F15FD55E63 /* Pods-MyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		329B498C611A037F3182A8CD8BFFE25F /* Pods-MyApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyApp-frameworks.sh"; sourceTree = "<group>"; };
+		4E3C698B7AA814288EBE4104DAA59316 /* Pods-MyApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		684625585B5002628DD733354DACB30F /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MyApp.a"; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4A0EB820800C70688B5B3F0069EDA3 /* MatiGlobalIDSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MatiGlobalIDSDK-Swift.h"; path = "MatiGlobalIDSDK.framework/Headers/MatiGlobalIDSDK-Swift.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA93F8A8E6B9F5FB94D0E196C601194D /* Pods-MyApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyApp-dummy.m"; sourceTree = "<group>"; };
+		C090C35C1C96670BFF5B84EBC4D6CAED /* MatiGlobalIDSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatiGlobalIDSDK.h; path = MatiGlobalIDSDK.framework/Headers/MatiGlobalIDSDK.h; sourceTree = "<group>"; };
+		D560805167FB07315CA36B1A8A64D412 /* Pods-MyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyApp.release.xcconfig"; sourceTree = "<group>"; };
+		D883316353391A7D7C7E4EDD491FF8E2 /* Pods-MyApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A633E7DD02CD4C3920CEC90C0317F645 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366339CC348C61010A2C1049A6C9B23B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CC18B9BC19B11067ACDF00FB717CA67 /* MatiGlobalIDSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DDDCA0D34EBD2A9D1E1CB0A69C3A0D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8359411BB043236A260E5F648C23D /* Mati-Global-ID-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A11017B14BD748957106DD770DEB7113 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				021A78F9337EAD5796DA94A5F6A79C49 /* Mati-Global-ID-SDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mati-Global-ID-SDK";
+			sourceTree = "<group>";
+		};
+		B598354EB706582870698F068EB21FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				684625585B5002628DD733354DACB30F /* libPods-MyApp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C08A4868FCFD9782AE8AA3E6E569B3F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F790768B2C209650453F1280B50A2BE4 /* Pods-MyApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				3DDDCA0D34EBD2A9D1E1CB0A69C3A0D8 /* Pods */,
+				B598354EB706582870698F068EB21FB2 /* Products */,
+				C08A4868FCFD9782AE8AA3E6E569B3F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F790768B2C209650453F1280B50A2BE4 /* Pods-MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				D883316353391A7D7C7E4EDD491FF8E2 /* Pods-MyApp-acknowledgements.markdown */,
+				4E3C698B7AA814288EBE4104DAA59316 /* Pods-MyApp-acknowledgements.plist */,
+				AA93F8A8E6B9F5FB94D0E196C601194D /* Pods-MyApp-dummy.m */,
+				329B498C611A037F3182A8CD8BFFE25F /* Pods-MyApp-frameworks.sh */,
+				288D214476F7A4C955F399F15FD55E63 /* Pods-MyApp.debug.xcconfig */,
+				D560805167FB07315CA36B1A8A64D412 /* Pods-MyApp.release.xcconfig */,
+			);
+			name = "Pods-MyApp";
+			path = "Target Support Files/Pods-MyApp";
+			sourceTree = "<group>";
+		};
+		FDB8359411BB043236A260E5F648C23D /* Mati-Global-ID-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C090C35C1C96670BFF5B84EBC4D6CAED /* MatiGlobalIDSDK.h */,
+				6F4A0EB820800C70688B5B3F0069EDA3 /* MatiGlobalIDSDK-Swift.h */,
+				366339CC348C61010A2C1049A6C9B23B /* Frameworks */,
+				A11017B14BD748957106DD770DEB7113 /* Support Files */,
+			);
+			name = "Mati-Global-ID-SDK";
+			path = "Mati-Global-ID-SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BCE0743E5EFE4ED0B32A4E0F21C7B466 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4255925345F39757951D1D1864535DD4 /* Pods-MyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79F9B57CF4E2D18CAFF55F3C21DA7607 /* Build configuration list for PBXNativeTarget "Pods-MyApp" */;
+			buildPhases = (
+				BCE0743E5EFE4ED0B32A4E0F21C7B466 /* Headers */,
+				EB9894B0C157000A714395E273125F02 /* Sources */,
+				A633E7DD02CD4C3920CEC90C0317F645 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				798C4593ACA5A90D39B5FAD5A1F6A2E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-MyApp";
+			productName = "Pods-MyApp";
+			productReference = 684625585B5002628DD733354DACB30F /* libPods-MyApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B598354EB706582870698F068EB21FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB3DA2D277B8C676DAFAA681751A98AD /* Mati-Global-ID-SDK */,
+				4255925345F39757951D1D1864535DD4 /* Pods-MyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9894B0C157000A714395E273125F02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0623E4A2E3A25AF72215279094249D0D /* Pods-MyApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		798C4593ACA5A90D39B5FAD5A1F6A2E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mati-Global-ID-SDK";
+			target = CB3DA2D277B8C676DAFAA681751A98AD /* Mati-Global-ID-SDK */;
+			targetProxy = 5E6187C2FD74361EE26E48AC4CD0CB77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D0B95293C50292A971A5BE85B8BD2C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021A78F9337EAD5796DA94A5F6A79C49 /* Mati-Global-ID-SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		672423380FCCFF357B6D610733D95005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D560805167FB07315CA36B1A8A64D412 /* Pods-MyApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A18CA9FC574380F131F663EEFF8EACF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 288D214476F7A4C955F399F15FD55E63 /* Pods-MyApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7F23D6A8A58A2C0CFF08A835C3BD3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DE107BABED165A59181C180B209AF68D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021A78F9337EAD5796DA94A5F6A79C49 /* Mati-Global-ID-SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F90907FE3EEB00ADC71F082E616DC5D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F4C8C8BFC974C4C3811623CFDDB4101 /* Build configuration list for PBXAggregateTarget "Mati-Global-ID-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D0B95293C50292A971A5BE85B8BD2C9 /* Debug */,
+				DE107BABED165A59181C180B209AF68D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F23D6A8A58A2C0CFF08A835C3BD3B8 /* Debug */,
+				F90907FE3EEB00ADC71F082E616DC5D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79F9B57CF4E2D18CAFF55F3C21DA7607 /* Build configuration list for PBXNativeTarget "Pods-MyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18CA9FC574380F131F663EEFF8EACF8 /* Debug */,
+				672423380FCCFF357B6D610733D95005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

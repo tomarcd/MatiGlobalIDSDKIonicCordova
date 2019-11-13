@@ -1,0 +1,7 @@
+{
+  "name": "MatiIntegrationIonic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

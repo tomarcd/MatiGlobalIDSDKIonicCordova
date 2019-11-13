@@ -1,0 +1,16 @@
+PODS:
+  - Mati-Global-ID-SDK (2.3.15)
+
+DEPENDENCIES:
+  - Mati-Global-ID-SDK
+
+SPEC REPOS:
+  trunk:
+    - Mati-Global-ID-SDK
+
+SPEC CHECKSUMS:
+  Mati-Global-ID-SDK: 620ea5bfb76a6c27439c50a43a1669f4a287d97e
+
+PODFILE CHECKSUM: e86eacc0ace35870c667b3b9dc40b65415797c87
+
+COCOAPODS: 1.8.3

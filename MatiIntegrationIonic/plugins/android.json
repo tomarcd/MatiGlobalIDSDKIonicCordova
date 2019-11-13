@@ -7,6 +7,9 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-plugin-androidx-adapter": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
@@ -30,9 +33,5 @@
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },
-  "dependent_plugins": {
-    "cordova-plugin-cocoapod-support": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    }
-  }
+  "dependent_plugins": {}
 }

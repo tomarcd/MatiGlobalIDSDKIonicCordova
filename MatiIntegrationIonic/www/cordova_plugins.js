@@ -50,7 +50,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
     }
   ];
   module.exports.metadata = {
-    "cordova-plugin-cocoapod-support": "1.6.2",
+    "cordova-plugin-androidx-adapter": "1.1.0",
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-ionic-keyboard": "2.2.0",
     "cordova-plugin-ionic-webview": "4.1.3",
